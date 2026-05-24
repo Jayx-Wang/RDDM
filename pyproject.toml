@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rddm"
+version = "0.1.0"
+description = "RDDM: A Residual-Driven Drifting Model for High-Fidelity Low-Dose CT Denoising"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "Jianxu Wang"},
+  {name = "Qing Lyu"},
+  {name = "Ge Wang"},
+]
+dependencies = [
+  "numpy",
+  "pydicom",
+  "Pillow",
+  "scikit-image",
+  "tqdm",
+  "pytorch-fid",
+]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2605.17188"
+Homepage = "https://github.com/Jayx-Wang/RDDM"
+Team = "https://wang-axis.github.io/"
+
+[project.scripts]
+rddm-train = "train:main"
+rddm-infer-single = "infer_single:main"
+rddm-evaluate = "evaluate:main"
+
+[tool.setuptools]
+py-modules = ["train", "infer_single", "evaluate"]
+packages = ["dataset", "model", "rddm", "utils"]
