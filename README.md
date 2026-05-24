@@ -50,10 +50,12 @@ python -m pip install -U pip
 Install a PyTorch build matching your CUDA version. For example, for CUDA 12.4:
 
 ```bash
-pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
 ```
 
 For other CUDA/CPU targets, use the [official PyTorch instructions](https://pytorch.org/get-started/locally/).
+
+RDDM computes FID during dataset evaluation by default, so `torchvision` is installed together with `torch` to keep the PyTorch/FID dependency stack consistent.
 
 ### Option 1: Install from source
 
