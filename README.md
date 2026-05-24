@@ -1,6 +1,7 @@
 # RDDM: A Residual-Driven Drifting Model for High-Fidelity Low-Dose CT Denoising
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.17188-b31b1b.svg)](https://arxiv.org/abs/2605.17188)
+[![PyPI](https://img.shields.io/pypi/v/rddm.svg)](https://pypi.org/project/rddm/)
 
 Official code release for **RDDM: A Residual-Driven Drifting Model for High-Fidelity Low-Dose CT Denoising** by Jianxu Wang, Qing Lyu, and Ge Wang.
 
