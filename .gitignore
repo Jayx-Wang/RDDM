@@ -29,3 +29,8 @@ pytorch_fid_eval_*/
 !test_sample/
 !test_sample/**/
 !test_sample/**/.gitkeep
+
+# Packaging
+build/
+dist/
+*.egg-info/
