@@ -119,7 +119,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py \
   --data_dir /path/to/the/dataset \
   --split_train train \
   --batch_size 24 \
-  --ncpus 8 \
+  --ncpus 20 \
   --lr 1e-4 \
   --lr_decay_mode step \
   --lr_decay_step 10000 \

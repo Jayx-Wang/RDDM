@@ -96,7 +96,7 @@ def create_argparser():
         recursive=True,
         hu_min=-1024.0,
         hu_max=3072.0,
-        ncpus=8,
+        ncpus=20,
         batch_size=24,
         lr=1e-4,
         lr_decay_mode="step",
