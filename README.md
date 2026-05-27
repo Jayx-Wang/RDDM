@@ -25,8 +25,8 @@ The paper reports three RDDM variants, providing practical choices from fine-det
 | Variant | `--temperatures` | `--lambda_l1` | Intended use | Pretrained weights |
 | --- | --- | ---: | --- | --- |
 | RDDM-Fine | `1.0,1.5` | `0` | Best fidelity; preserves realistic anatomical texture and noise characteristics. | [Download](https://drive.google.com/file/d/1WO0imP0_8diJX0MXQTZlhe1jrkfgwAHz/view?usp=sharing) |
-| RDDM-Balanced | `0.2,1.0` | `0` | Default trade-off between noise suppression and detail preservation. | [Download](https://drive.google.com/drive/folders/1dhRskecr4auN_kmLeMooebmDCw3I5jMn?usp=sharing) |
-| RDDM-Smooth | `1.0` | `0.01` | Stronger noise suppression with smoother reconstructions. | [Download](https://drive.google.com/drive/folders/19KgUpKJ0zZ7TuOZygqmP7WAr6pIn5bDI?usp=sharing) |
+| RDDM-Balanced | `0.2,1.0` | `0` | Default trade-off between noise suppression and detail preservation. | [Download](https://drive.google.com/file/d/1U4ikII3xSH30jDfFInfINM5K-CTTRMex/view?usp=sharing) |
+| RDDM-Smooth | `1.0` | `0.01` | Stronger noise suppression with smoother reconstructions. | [Download](https://drive.google.com/file/d/1YcWiFCyKodjx9L76q4MaEWCfUMyIU1K4/view?usp=sharing) |
 
 * _The training and test sets strictly follow the split described in the paper and are kept independent throughout model training and inference._
 * _Place the downloaded pretrained weights under the corresponding subfolders in `checkpoints/`._
