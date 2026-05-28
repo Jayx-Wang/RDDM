@@ -14,8 +14,6 @@ authors = [
   {name = "Ge Wang"},
 ]
 dependencies = [
-  "torch>=2.6,<2.7",
-  "torchvision>=0.21,<0.22",
   "numpy",
   "pydicom",
   "Pillow",
