@@ -55,7 +55,7 @@ pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorc
 
 For other CUDA/CPU targets, use the [official PyTorch instructions](https://pytorch.org/get-started/locally/).
 
-RDDM computes FID during dataset evaluation by default. Install `torch` and `torchvision` before installing RDDM so the CUDA/CPU-specific PyTorch build is controlled explicitly and is not replaced during `pip install -e .` or `pip install rddm`.
+RDDM computes FID during dataset evaluation by default. Install `torch` and `torchvision` before installing RDDM so the CUDA/CPU-specific PyTorch build is controlled explicitly.
 
 ### Option 1: Install from source
 
